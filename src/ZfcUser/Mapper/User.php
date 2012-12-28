@@ -41,6 +41,14 @@ class User extends AbstractDbMapper implements UserInterface
         return $entity;
     }
     
+    public function getTableName(){
+    	return $this->tableName;
+    }
+    
+    public function setTableName($tableName){
+    	$this->tableName=$tableName;
+    }    
+    
     protected $hydrator;
     
     public function getHydrator(){
