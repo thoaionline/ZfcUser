@@ -496,7 +496,11 @@ class ModuleOptions extends AbstractOptions implements
      * @param string $tableName
      */
     public function setTableName($tableName){
+<<<<<<< HEAD
+    	$this->tableName=$tableName;
+=======
         $this->tableName=$tableName;
+>>>>>>> thoaionline/custom-table
     }
     
     /**
@@ -505,7 +509,11 @@ class ModuleOptions extends AbstractOptions implements
      * @return string
      */
     public function getTableName(){
+<<<<<<< HEAD
+    	return $this->tableName;
+=======
         return $this->tableName;
+>>>>>>> thoaionline/custom-table
     }
 
     /**
